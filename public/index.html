@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="site.css">
+
+<body>
+  <h2>Manhattan Style Plots by Trait <a href="manhattan.html?trait=acne">Click Here</a></h2>
+  <h2>Phenotype Charts</h2>
+  <div id="chartAreaDescription">Select a version of the calculated and observed datasets and then submit</div>
+  </br>
+  <div id=chartControls>
+    <form id="phenChart">
+      <label for="obs_version">Observation Data Version: </label>
+      <select id="obs_version" name="select">
+      </select>
+      <label for="calc_version">Calculated Score Version: </label>
+      <select id="calc_version" name="select">
+      </select>
+      <input id="phenSubmit" type="submit" value="Submit">
+    </form>
+  </div>
+  <div id="chartContainer"></div>
+  <script src="builds/commons.js" charset="utf-8"></script>
+  <script src="builds/phenotypeScore.bundle.js" charset="utf-8">></script>
+  <!-- <script src="builds/bundle.js"></script> -->
+</body>

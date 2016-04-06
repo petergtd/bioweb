@@ -1,0 +1,39 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.traitChart {
+  width: 300px;
+  border: none;
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+.traitChart th {
+  text-align: right;
+}
+
+.traitChart td {
+  border-bottom: 1px solid #eee;
+}
+
+.statLabelCell {
+  text-align: left;
+  font-weight: bold;
+  width: 80px;
+}
+.statValueCell {
+  width: 80px;
+  text-align: right;
+}
